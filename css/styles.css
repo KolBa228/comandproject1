@@ -72,6 +72,8 @@ button {
 
 /* Header styles */
 .header {
+  position: absolute;
+  width: 100%;
   background-color: #5e5e5e;
   color: var(--secondary-text-color);
 }
@@ -120,6 +122,17 @@ button {
 
 /* Hero */
 .hero {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/hero/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1360px;
+  margin: 0 auto;
   padding-top: 259px;
   padding-bottom: 284px;
   background-color: #5e5e5e;
